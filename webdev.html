@@ -14,7 +14,7 @@
     .cn{
         width: 7cm;
         height: 1.3cm;
-        margin-right: 26.3cm;
+        margin-right: 24.3cm;
     }
     .sep{
         background-color: green;
@@ -48,9 +48,21 @@
        border-color: aqua;
 
     }
-    .fb{
+    .fb
+    {
         background-color: rgb(252, 165, 165);
         border-radius: 1rem;
+    }
+    .prod{
+        justify-content: center;
+        background-image: linear-gradient(rgb(252,179,188),rgb(255,255,255));
+    }
+    .prod1
+    {
+        margin-left: 9.25rem;
+        margin-top: 2.5rem;
+        border-radius: 1.25rem;
+
     }
 </style>
 <body class="bg-pink-200">
@@ -60,6 +72,7 @@
             <li class="ml-3 font-sans font-bold text-xl text-white hover:-translate-y-2 hover:bg-red-300 p-2 rounded-2xl duration-75 hover:cursor-pointer  hover:shadow-2xl">Home</li>
             <li class="ml-3 font-sans font-bold text-xl text-white hover:-translate-y-2 hover:bg-red-300 p-2 rounded-2xl duration-75 hover:cursor-pointer  hover:shadow-2xl">About</li>
             <li class="ml-3 font-sans font-bold text-xl text-white hover:-translate-y-2 hover:bg-red-300 p-2 rounded-2xl duration-75 hover:cursor-pointer  hover:shadow-2xl">Product</li>
+            <li class="ml-3 font-sans font-bold text-xl text-white hover:-translate-y-2 hover:bg-red-300 p-2 rounded-2xl duration-75 hover:cursor-pointer  hover:shadow-2xl">Team</li>
             <li class="ml-3 font-sans font-bold text-xl text-white hover:-translate-y-2 hover:bg-red-300 p-2 rounded-2xl duration-75 hover:cursor-pointer  hover:shadow-2xl">Contact</li>
         </ul>
     </nav>
@@ -89,10 +102,11 @@
     <div id="our-products" class="pclss">
         <h1 class="text-center text-3xl text-white font-semibold">Our Products</h1>
         <p class="font-light text-white text-center mt-10">From the edge of space and boundaries of time we present to you.. </p>
-        <div class="flex space-x-5 space-y-10 ">
-           <div class="bg-transparent ml-5 mt-10">
-                <img class="hover:-translate-y-4 duration-700" id="box" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a037fzkgins/gallery/in-galaxy-a03s-a037-401442-sm-a037fzkgins-thumb-490222302?$216_216_PNG$" alt="">
+        <div class="flex space-x-28 space-y-10 ">
+           <div class="prod1">
+                <img class="" id="box" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a037fzkgins/gallery/in-galaxy-a03s-a037-401442-sm-a037fzkgins-thumb-490222302?$216_216_PNG$" alt="">
                 <p class="text-center text-white text-lg">Samsung s22</p>
+                <br>
                 <p class="text-center text-white ">Snapdragon 844</p>
                 <p class="text-center text-white ">128 Gb</p>
                 <p class="text-center text-white ">28% off</p>
@@ -100,8 +114,9 @@
                 <button class="bg-slate-400 rounded-xl p-1 ml-20 mt-5 hover:shadow-lg duration-300">Buy now</button>
             </div>
             <div class="bg-transparent">
-                <img class=" ml-8 hover:-translate-y-4 duration-700" src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?$216_216_PNG$" alt="">
+                <img class="ml-7" src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?$216_216_PNG$" alt="">
                 <p class="text-center text-white  text-lg">Samsung s24</p>
+                <br>
                 <p class="text-center text-white ">Snapdragon 44</p>
                 <p class="text-center text-white ">64 Gb</p>
                 <p class="text-center text-white ">4% off</p>
@@ -110,8 +125,9 @@
             
             </div>
             <div class="bg-transparent">
-                <img class="hover:-translate-y-4 duration-700" id="box" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a037fzkgins/gallery/in-galaxy-a03s-a037-401442-sm-a037fzkgins-thumb-490222302?$216_216_PNG$" alt="">
+                <img class="" id="box" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a037fzkgins/gallery/in-galaxy-a03s-a037-401442-sm-a037fzkgins-thumb-490222302?$216_216_PNG$" alt="">
                 <p class="text-center text-white text-lg">Samsung s22</p>
+                <br>
                 <p class="text-center text-white ">Snapdragon 844</p>
                 <p class="text-center text-white ">128 Gb</p>
                 <p class="text-center text-white ">28% off</p>
@@ -119,8 +135,9 @@
                 <button class="bg-slate-400 rounded-xl p-1 ml-20 mt-5 hover:shadow-lg duration-300">Buy now</button>
             </div>
             <div class="bg-">
-                <img class=" ml-8 hover:-translate-y-4 duration-700" src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?$216_216_PNG$" alt="">
+                <img class="ml-7" src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?$216_216_PNG$" alt="">
                 <p class="text-center text-white  text-lg">Samsung s24</p>
+                <br>
                 <p class="text-center text-white ">Snapdragon 44</p>
                 <p class="text-center text-white ">64 Gb</p>
                 <p class="text-center text-white ">4% off</p>
@@ -128,38 +145,37 @@
                 <button class="bg-slate-400 rounded-xl p-1 ml-24 mt-5 hover:shadow-lg duration-300">Buy now</button>
             
             </div>
-            <div class="bg-transparent">
-                <img class="hover:-translate-y-4 duration-700" id="box" src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a037fzkgins/gallery/in-galaxy-a03s-a037-401442-sm-a037fzkgins-thumb-490222302?$216_216_PNG$" alt="">
-                <p class="text-center text-white text-lg">Samsung s22</p>
-                <p class="text-center text-white ">Snapdragon 844</p>
-                <p class="text-center text-white ">128 Gb</p>
-                <p class="text-center text-white ">28% off</p>
-                <p class="text-center text-white font-semibold text-3xl bg-red-600 rounded-md ml-12 mr-12">$1200</p>
-                <button class="bg-slate-400 rounded-xl p-1 ml-20 mt-5 hover:shadow-lg duration-300">Buy now</button>
+           
+        </div>
+        <div class="prod">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 class="text-center text-3xl text-white font-semibold">Our Team</h1>
+            <p class="font-light text-white text-center mt-10">Brightest minds in mid-west on your prods </p>
+            <div class="bg-pink-200 mt-12 mr-72 ml-64 p-20 rounded-lg">
+                <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores earum assumenda, inventore odio aut omnis? Veniam aspernatur sunt </p>
             </div>
-            <div class="bg-transparent">
-                <img class=" ml-8 hover:-translate-y-4 duration-700" src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863398?$216_216_PNG$" alt="">
-                <p class="text-center text-white  text-lg">Samsung s24</p>
-                <p class="text-center text-white ">Snapdragon 44</p>
-                <p class="text-center text-white ">64 Gb</p>
-                <p class="text-center text-white ">4% off</p>
-                <p class="text-center text-white font-semibold text-3xl bg-red-600 rounded-md ml-16 mr-16">$2000</p>
-                <button class="bg-slate-400 rounded-xl p-1 ml-24 mt-5 hover:shadow-lg duration-300">Buy now</button>
+            <div class="bg-pink-200 mt-12 mr-72 ml-64 p-20 rounded-lg">
+                <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores earum assumenda, inventore odio aut omnis? Veniam aspernatur sunt </p>
             
             </div>
-        </div>
+            <div class="bg-pink-200 mt-12 mr-72 ml-64 p-20 rounded-lg">
+                <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores earum assumenda, inventore odio aut omnis? Veniam aspernatur sunt </p>
+            
+            </div>
+            <br>
+            <br>
+            <footer class="bg-green-100 p-40 rounded-lg">hello </footer>
+            
     </div>
-    <div class="flex space-x-12 space-y-12 bg-green-600 justify-center">
-        <div class="bg-purple-500 mt-12 p-20 rounded-lg">
-            <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
-        </div>
-        <div class="bg-purple-500 p-20 rounded-md">
-            <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
-        </div>
-        <div class="bg-purple-500 p-20 rounded-md">
-            <img class="img1" src="https://us.123rf.com/450wm/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration.jpg?ver=6" alt="">
-        </div>
+    
     </div>
+    
     
     <script>
         //function work()
